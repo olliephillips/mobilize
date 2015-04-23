@@ -27,7 +27,8 @@ This script is implemented on http://cookiesdirective.com - which was not built 
 9. Works for mobile view ports only. To restructure the DOM for better UI (great for bringing navigation sections top top of viewport which might sit in a sidebar on desktop site), add the "remobilize" class to an element together with one of the following:
   * move-first, moves element and all children to first in DOM tree in ```<BODY>```
   * move-last, moves element and all children to last in DOM tree in ```<BODY>```
-  * move-before-x, moves element and all children directly before another element where x is the element's ID to move before
+  * move-before-x, moves element and all children directly before another element where x is the element's ID to sit before
+  * move-after-x, moves element and all children directly after another element where x is the element's ID to sit after
 
 ####Caveats
 * If there are inline styles marked "!important" there's nothing to be done
