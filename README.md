@@ -3,6 +3,8 @@
 ###Introduction
 Experimental suite of CSS resets and adjustments, and optional JavaScript routines to make non "responsive" sites more "mobile friendly". Tested on 3 sites, all of which subsequently passed Google's "mobile friendly" test here just by implementing just the basic CSS script. https://www.google.co.uk/webmasters/tools/mobile-friendly/
 
+This script is implemented on http://cookiesdirective.com - which was not built as a responsive website, nor with mobile devices in mind. It passed the test. The site also uses the "unmobilize" and "remobilize move-before-x" classes to improve appearance marginally.
+
 ####How to use
 1. Upload mobilize.css to your server, remember to amend any path dependencies in the remaining instructions
 2. Add ```<meta name="viewport" content="width=device-width, initial-scale=1.0">``` to in between the ```<head></head>``` tags of your HTML page
