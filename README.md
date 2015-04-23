@@ -1,7 +1,7 @@
 # mobilize
 
 ###Introduction
-Experimental suite of CSS resets and adjustments, and optional JavaScript routines to make sites more "mobile friendly". Tested on 3 sites, all of which subsequently passed Google's "mobile friendly test here just by implementing just the basic CSS script. https://www.google.co.uk/webmasters/tools/mobile-friendly/
+Experimental suite of CSS resets and adjustments, and optional JavaScript routines to make non "responsive" sites more "mobile friendly". Tested on 3 sites, all of which subsequently passed Google's "mobile friendly test here just by implementing just the basic CSS script. https://www.google.co.uk/webmasters/tools/mobile-friendly/
 
 ####How to use
 1. Upload mobilize.css to your server, remember to amend any path dependencies in the remaining instructions
@@ -21,6 +21,13 @@ Experimental suite of CSS resets and adjustments, and optional JavaScript routin
   * move-first, moves element and all children to first in DOM tree in ```<BODY>```
   * move-last, moves element and all children to last in DOM tree in ```<BODY>```
   * move-before-x, moves element and all children directly before another element where x is the element's ID to move before
+
+#####Caveats
+If there are inline styles marked "!important" there's nothing to be done.
+If your site uses table based markup this won't work. 
+
+#####Contributions
+If you can improve this quick and dirty script please feel free to contribute
 
 ###License and Copyright
 Mobilize is MIT licensed
