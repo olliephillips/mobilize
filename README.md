@@ -10,8 +10,8 @@ Experimental suite of CSS resets and adjustments, and optional JavaScript routin
 
 
 ####Going Further
-4. Use the "unfriendly" class to remove elements that just don't work when viewed on mobile. Add the class to the element
-5. Use the "friendly" class to enable mobile only elements. Add the class to the elements
+4. Use the "unmobilize" class to remove elements that just don't work when viewed on mobile. Add the class to the element
+5. Use the "mobilize" class to enable mobile only elements. Add the class to the elements
 6. Add additional directives to enhance aesthetics
 
 ####Going Further Still
