@@ -17,16 +17,16 @@ Experimental suite of CSS resets and adjustments, and optional JavaScript routin
 ####Going Further Still
 7. Upload mobilize.js to your server, remember to amend any path dependencies in the remaining instructions
 8. Add this script in the ```<head></head>``` tags of your HTML page ```<script type="text/javascript" src="mobilize.js"></script>```
-9. Works for mobile view ports only. To restructure the DOM for better UI, add the "remobilize" class to an element together with one of the following:
+9. Works for mobile view ports only. To restructure the DOM for better UI (great for bringing navigation sections top top of viewport which might sit in a sidebar on desktop site), add the "remobilize" class to an element together with one of the following:
   * move-first, moves element and all children to first in DOM tree in ```<BODY>```
   * move-last, moves element and all children to last in DOM tree in ```<BODY>```
   * move-before-x, moves element and all children directly before another element where x is the element's ID to move before
 
-#####Caveats
-If there are inline styles marked "!important" there's nothing to be done.
-If your site uses table based markup this won't work. 
+####Caveats
+* If there are inline styles marked "!important" there's nothing to be done
+* If your site uses table based markup this won't work
 
-#####Contributions
+###Contributions
 If you can improve this quick and dirty script please feel free to contribute
 
 ###License and Copyright
