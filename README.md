@@ -18,9 +18,9 @@ Experimental suite of CSS resets and adjustments, and optional JavaScript routin
 7. Upload mobilize.js to your server, remember to amend any path dependencies in the remaining instructions
 8. Add this script in the ```<head></head>``` tags of your HTML page ```<script type="text/javascript" src="mobilize.js"></script>```
 9. Works for mobile view ports only. To restructure the DOM for better UI, add the "remobilize" class to an element together with one of the following:
-..* move-first, moves element and all children to first in DOM tree in <BODY>
-..* move-last, moves element and all children to last in DOM tree in <BODY>
-..* move-before-x, moves element and all children directly before another element where x is the element's ID to move before
+  * move-first, moves element and all children to first in DOM tree in ```<BODY>```
+  * move-last, moves element and all children to last in DOM tree in ```<BODY>```
+  * move-before-x, moves element and all children directly before another element where x is the element's ID to move before
 
 ###License and Copyright
 Mobilize is MIT licensed
