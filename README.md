@@ -5,8 +5,8 @@ Experimental suite of CSS resets and adjustments, and optional JavaScript routin
 
 ####How to use
 1. Upload mobilize.css to your server, remember to amend any path dependencies in the remaining instructions
-2. Add '<meta name="viewport" content="width=device-width, initial-scale=1.0">' to in between the <head></head> tags of your HTML page
-3. Add this stylesheet in the <head></head> tags of your HTML page with '<link href="mobilize.css" rel="stylesheet" type="text/css" />' 
+2. Add ```html<meta name="viewport" content="width=device-width, initial-scale=1.0">``` to in between the ```html<head></head>``` tags of your HTML page
+3. Add this stylesheet in the ```html<head></head>``` tags of your HTML page with ```html<link href="mobilize.css" rel="stylesheet" type="text/css" />```
 
 
 ####Going Further
@@ -16,7 +16,7 @@ Experimental suite of CSS resets and adjustments, and optional JavaScript routin
 
 ####Going Further Still
 7. Upload mobilize.js to your server, remember to amend any path dependencies in the remaining instructions
-8. Add this script in the <head></head> tags of your HTML page '<script type="text/javascript" src="mobilize.js"></script>'
+8. Add this script in the ```html<head></head>``` tags of your HTML page ```html<script type="text/javascript" src="mobilize.js"></script>```
 9. Works for mobile view ports only. To restructure the DOM for better UI, add the "remobilize" class to an element together with one of the following:
 ..* move-first, moves element and all children to first in DOM tree in <BODY>
 ..* move-last, moves element and all children to last in DOM tree in <BODY>
