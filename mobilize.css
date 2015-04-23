@@ -10,8 +10,8 @@ How to use
 3. Add this stylesheet in the <head></head> tags of your HTML page with '<link href="mobilize.css" rel="stylesheet" type="text/css" />' 
 
 Going further
-4. Use the "unfriendly" class to remove elements that just don't work when viewed on mobile. Add the class to the element
-5. Use the "friendly" class to enable mobile only elements. Add the class to the elements
+4. Use the "unmobilize" class to remove elements that just don't work when viewed on mobile. Add the class to the element
+5. Use the "mobilize" class to enable mobile only elements. Add the class to the elements
 6. Add additional directives to enhance aesthetics
 
 Going further still
