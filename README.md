@@ -3,7 +3,7 @@
 ##Breathe new life into your old, non-responsive website with "mobilize.css/js". Pass Google's "mobile friendly" test. 
 
 ###TL/DR
-Simple implementation of one CSS file on older sites that helps pass Googles "mobile friendly" test and maintain your websites SERPs. Go further if you want to. Not a silver bullet. "Experimental" meaning I put it together and tested over two evenings and there is no guarantee Google's test will stay as is. They tend to respond to gamers in my my experience.
+Simple implementation of one CSS file on older sites that helps pass Googles "mobile friendly" test and maintain your websites SERPs. Go further if you want to. Not a silver bullet. "Experimental" meaning I put it together and tested over two evenings and there is no guarantee Google's test will stay as is.
 
 ###Introduction
 Experimental suite of CSS resets and adjustments, and optional JavaScript routines to make non "responsive" sites more "mobile friendly". Tested on 3 sites, all of which subsequently passed Google's "mobile friendly" test here just by implementing just the basic CSS script. https://www.google.co.uk/webmasters/tools/mobile-friendly/
