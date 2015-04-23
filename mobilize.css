@@ -1,0 +1,102 @@
+/* 
+Mobilize
+Copyright 2015 Ollie Phillips
+
+Experimental suite of CSS resets and adjustments, and optional JavaScript routines to make sites more "mobile friendly". Tested on 3 sites, all of which subsequently passed Google's "mobile friendly" test here just by implementing just the basic CSS script. https://www.google.co.uk/webmasters/tools/mobile-friendly/
+
+How to use
+1. Upload mobilize.css to your server, remember to amend any path dependencies in the remaining instructions
+2. Add '<meta name="viewport" content="width=device-width, initial-scale=1.0">' to in between the <head></head> tags of your HTML page
+3. Add this stylesheet in the <head></head> tags of your HTML page with '<link href="mobilize.css" rel="stylesheet" type="text/css" />' 
+
+Going further
+4. Use the "unfriendly" class to remove elements that just don't work when viewed on mobile. Add the class to the element
+5. Use the "friendly" class to enable mobile only elements. Add the class to the elements
+6. Add additional directives to enhance aesthetics
+
+Going further still
+7. Upload mobilize.js to your server, remember to amend any path dependencies in the remaining instructions
+8. Add this script in the <head></head> tags of your HTML page '<script type="text/javascript" src="mobilize.js"></script>'
+9. Works for mobile view ports only. To restructure the DOM for better UI, add the "remobilize" class to an element together with one of the following.
+	- move-first, moves element and all children to first in DOM tree in <BODY>
+	- move-last, moves element and all children to last in DOM tree in <BODY>
+	- move-before-x, moves element and all children directly before another element where x is the element's ID to move before
+	- move-after-x, moves element and all children directly after another element where x is the element's ID to move after
+*/
+
+@media only screen 
+  and (min-width: 320px) 
+  and (max-width: 568px) {
+	
+	/* Mobile resets */
+	* {
+		margin:0px!important;
+		padding:0px!important;
+	}
+
+	div {
+		left:0%!important;
+		right:0%!important;
+		margin:0px!important;
+		padding:0px!important;
+		width:100%!important;
+		height:auto!important;
+		position:relative!important;
+		float:left!important;
+		display:block!important;
+		margin-top:5px!important;
+		margin-bottom:5px!important;
+		border:none!important;
+		text-align:center!important;
+		overflow:hidden!important;
+	}	
+
+	ul, ul > li {
+		display:block!important;
+		margin-top:5px!important;
+		margin-bottom:5px!important;
+		text-align:center!important;
+	}	
+
+	a {
+		display:block!important;
+		margin-top:10px!important;
+		margin-bottom:10px!important;	
+	}
+	
+	p {
+		margin-top:5px!important;
+		margin-bottom:5px!important;
+		text-align:center!important;
+	}	
+
+	img {
+		max-width:100%!important;
+		max-height:100%!important;
+	}
+	
+	iframe {
+		max-width:100!important;
+		max-height:100%!important;
+	}	
+
+	/* Suppress in mobile class */
+	.unmobilize {
+		display:none!important;
+	}
+	
+	/* Enable in mobile class */
+	.mobilize {
+		display:block!important;
+	}	
+	
+	/* Add any custom styles to improve on the resets here */
+	
+	
+	
+	/* End any custom resets */
+}
+/* Suppress in desktop */
+.mobilize {
+	display:none;
+}	
