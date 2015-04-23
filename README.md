@@ -1,6 +1,6 @@
 # mobilize
 
-##Breathe new life into your old, non-responsive website with "mobilize.css/js". Pass Google's "mobile friendly" test. 
+####Breathe new life into your old, non-responsive website with "mobilize.css/js". Pass Google's "mobile friendly" test. 
 
 ###TL/DR
 Simple implementation of one CSS file on older sites that helps pass Googles "mobile friendly" test and maintain your websites SERPs. Go further if you want to. Not a silver bullet. "Experimental" meaning I put it together and tested over two evenings and there is no guarantee Google's test will stay as is.
